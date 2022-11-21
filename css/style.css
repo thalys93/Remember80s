@@ -1,27 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-li{
-    font-family: 'Press start 2P', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    color: aliceblue;
-    text-align: center;
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-    
-
-li:hover{
-    color:rgb(255, 255, 52) ;
-    text-decoration: underline;
-    list-style-image: url('../img/Seta.png');
-    list-style-position: inside ;
-    
-}
-
+/* Background do Site - Fundo */
+/* Adicionar Responsividade nele */
+/* Configurações Universais */
 body{
     position: relative;
     width: 1440px;
@@ -34,21 +15,3 @@ body{
 
 
 
-/*.center{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 55px;
-    height: 33vh;
-}
-*/
-
-
-
-
-#img-center{ 
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
