@@ -1,17 +1,68 @@
+
+/* Importação de Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Press+Start+2P&display=swap');
 
 /* Background do Site - Fundo */
 /* Adicionar Responsividade nele */
+
 /* Configurações Universais */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    font-family: 'JetBrains Mono', sans-serif;
+    color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
 body{
-    position: relative;
-    width: 1440px;
-    height: 1024px ;
     background-image: url(../img/inicial.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+}
+
+main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Estilização das Listas de Navegação */
+
+li {
+    font-family: 'Press start 2P', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 10px;
 }
 
 
+li:hover {
+    list-style-image: url(../img/Seta.png);
+    list-style-position: inside;
+}
 
+li>a{
+    text-decoration: none ;
+    color: aliceblue;
+}
 
+li>a:hover{
+    color: rgb(255, 255, 52);
+    text-decoration: underline;
+}
