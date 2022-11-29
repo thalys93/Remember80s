@@ -1,68 +1,163 @@
+/*fontes*/
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-/* Importação de Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Press+Start+2P&display=swap");
 
-/* Background do Site - Fundo */
-/* Adicionar Responsividade nele */
+@font-face {
 
-/* Configurações Universais */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+font-family: 'Bruno Ace';
+src: url(../assets/fonts/Bruno\ Ace\ Regular.ttf);
+
 }
 
-.footer{
-    font-family: 'JetBrains Mono', sans-serif;
-    color: aliceblue;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-}
-
-body{
-    background-image: url(../img/inicial.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-main{
-    width: 90vw;
-    margin: 0 auto;
-    padding: 30px 20px;
-}
-
-/* Estilização das Listas de Navegação */
 
 li {
-    font-family: 'Press start 2P', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    text-decoration: none;
-    color: aliceblue;
-    text-align: center;
-    list-style: none;
-    margin-bottom: 10px;
-}
+  font-family: "Press start 2P", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 10px;
 
+  transition-property: all;
+  transition-duration: 0.9s;
+}
 
 li:hover {
-    list-style-image: url(../img/Seta.png);
-    list-style-position: inside;
+  transform: translate();
+
+  list-style-image: url(../img/Seta.png);
+  list-style-position: inside;
 }
 
-li>a{
-    text-decoration: none ;
-    color: aliceblue;
+/*href*/
+li > a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-li>a:hover{
-    color: rgb(255, 255, 52);
-    text-decoration: underline;
+h2 > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+h3 > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+h4 > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer {
+  font-family: "JetBrains Mono", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+  background-color: #1a0b25;  
+  position: sticky;
+}
+
+/*div*/
+/*Roms,História e Roms*/
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#border{
+  display: inline-flex;
+  border: 4px solid rgba(107, 62, 180, 0.92);
+  box-shadow: 0px 4px 4px 5px rgba(103, 48, 147, 0.25);
+  padding: 5pt;
+  padding-left: 50pt;
+  padding-right: 50pt;
+}
+
+/* Títulos */
+h1 {
+  font-family: "Press Start 2P";
+  color: aliceblue;
+  font-size: 20pt;
+  font-weight: 100;
+  line-height: 25pt;
+}
+
+h2{
+  font-family: "Bruno Ace";
+}
+
+.h2 {
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 18px;
+  color: aliceblue;
+  padding-left: 10px;
+  text-align: center;
+  margin-top: 268px;
+  padding-left: 25px;
+  text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25),
+    1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
+}
+
+.h3 {
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 24px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -65px;
+  padding-left: 765px;
+  text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25),
+    1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
+}
+
+.h4 {
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 26px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -77px;
+  padding-right: 723px;
+  text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25),
+    1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
+}
+
+
+#img-ft1 {
+  width: 340px;
+  
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#img-ft1:hover{
+  transform: scale(0.9);
+  box-shadow: 2px 2px 8px 7px #fff53f76;
+}
+
+a>img{
+  transition-property: all;
+  transition-duration:0.5s;
+}
+
+a>img:hover{
+  transform: scale(0.9);
+}
+
+#coluna {
+  display: flex;
+  padding-right: 195px;
+}
+
+.side {
+  background-color: #1a0b25;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.541);
+  height: 55px;
 }
