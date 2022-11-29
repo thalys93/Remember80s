@@ -3,6 +3,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Press+Start+2P&display=swap");
 
+
 @font-face {
 
 font-family: 'Bruno Ace';
@@ -35,6 +36,7 @@ li:hover {
 }
 
 /*href*/
+
 li > a {
   text-decoration: none;
   color: aliceblue;
@@ -95,41 +97,6 @@ h2{
   font-family: "Bruno Ace";
 }
 
-.h2 {
-  font-family: "JetBrains Mono", sans-serif;
-  font-size: 18px;
-  color: aliceblue;
-  padding-left: 10px;
-  text-align: center;
-  margin-top: 268px;
-  padding-left: 25px;
-  text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25),
-    1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
-}
-
-.h3 {
-  font-family: "JetBrains Mono", sans-serif;
-  font-size: 24px;
-  color: aliceblue;
-  text-align: center;
-  margin-top: -65px;
-  padding-left: 765px;
-  text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25),
-    1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
-}
-
-.h4 {
-  font-family: "JetBrains Mono", sans-serif;
-  font-size: 26px;
-  color: aliceblue;
-  text-align: center;
-  margin-top: -77px;
-  padding-right: 723px;
-  text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25),
-    1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
-}
-
-
 #img-ft1 {
   width: 340px;
   
@@ -143,7 +110,7 @@ h2{
 }
 
 a>img{
-  transition-property: all;
+  transition: 5;
   transition-duration:0.5s;
 }
 
@@ -152,12 +119,36 @@ a>img:hover{
 }
 
 #coluna {
-  display: flex;
-  padding-right: 195px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
 }
 
 .side {
   background-color: #1a0b25;
   box-shadow: 0px 4px rgba(0, 0, 0, 0.541);
   height: 55px;
+}
+
+/* Detalhe nos Anchos e no Container */
+
+.textoimg{
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Bruno Ace";
+  font-size: 30px;
+  justify-content: center;
+  display: inline;
+  /* opacity: 0%; */
+}
+
+#txtop{
+  /* Animação */
+  transition-duration: 2.5s;
+}
+
+#txtop:hover{
+  
+  opacity: 100%;
+  color: yellow;
 }
