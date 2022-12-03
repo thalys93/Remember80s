@@ -1,138 +1,211 @@
 /*fontes*/
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Press+Start+2P&display=swap");
+
+
+@font-face {
+
+font-family: 'Bruno Ace';
+src: url(../assets/fonts/Bruno\ Ace\ Regular.ttf);
+
+}
+
 
 li {
-    font-family: 'Press start 2P', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    text-decoration: none;
-    color: aliceblue;
-    text-align: center;
-    list-style: none;
-    margin-bottom: 10px;
+  font-family: "Press start 2P", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 10px;
+
+  transition-property: all;
+  transition-duration: 0.9s;
 }
-    
 
 li:hover {
-    list-style-image: url(../img/Seta.png);
-    list-style-position: inside;
+  transform: translate();
+
+  list-style-image: url(../img/Seta.png);
+  list-style-position: inside;
 }
 
 /*href*/
-li>a{
-    text-decoration: none ;
-    color: aliceblue;
+
+li > a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-h2>a{
-text-decoration: none;
-color: aliceblue;
+h2 > a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-h3>a{
-    text-decoration: none;
-    color: aliceblue;
-    }
-
-  h4>a{
-        text-decoration: none;
-      color: aliceblue;
-        }
-        
-
-body{
-    max-width: 100%;
-    height: 111vh;
-    background-image: url(../img/inicial.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+h3 > a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-.footer{
-    font-family: 'JetBrains Mono', sans-serif;
-    color: aliceblue;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 15px;
+h4 > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer {
+  font-family: "JetBrains Mono", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+  background-color: #1a0b25;  
+  position: sticky;
 }
 
 /*div*/
- /*Roms,História e Roms*/
-.h2{
-    font-family: 'JetBrains Mono', sans-serif;
-    font-size: 18px;
-    color: aliceblue;
-    padding-left: 10px ;
-   text-align:center;
-   margin-top: 268px;
-   padding-left: 25px;
-   text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25), 1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
+/*Roms,História e Roms*/
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.h3{
-    font-family: 'JetBrains Mono', sans-serif;
-    font-size: 24px;
-    color: aliceblue;
-    text-align: center;
-    margin-top: -65px;
-   padding-left: 765px;
-   text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25), 1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
+#border{
+  display: inline-flex;
+  border: 4px solid rgba(107, 62, 180, 0.92);
+  box-shadow: 0px 4px 4px 5px rgba(103, 48, 147, 0.25);
+  padding: 5pt;
+  padding-left: 50pt;
+  padding-right: 50pt;
 }
 
-.h4{
-    font-family: 'JetBrains Mono', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-    text-align: center;
-    margin-top: -77px;
-    padding-right: 723px;
-    text-shadow: 0px 4px 4px rgba(24, 16, 69, 0.25), 1.87446px 3.74893px 3.74893px rgba(15, 12, 35, 0.73);
-
+/* Títulos */
+h1 {
+  font-family: "Press Start 2P";
+  color: aliceblue;
+  font-size: 20pt;
+  font-weight: 100;
+  line-height: 25pt;
 }
 
-/*.center{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 55px;
-    height: 33vh;
+h2{
+  font-family: "Bruno Ace";
 }
-*/
-.ft1{
-    width: 100px;
-    height: 50px;
-    top: 469.43px;
-    left: 50px;
-    }
+
+#img-ft1 {
+  width: 340px;
+  
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#img-ft1:hover{
+  transform: scale(0.9);
+  box-shadow: 2px 2px 8px 7px #fff53f76;
+}
+
+a>img{
+  transition: 5;
+  transition-duration:0.5s;
+}
+
+a>img:hover{
+  transform: scale(0.9);
+}
+
+#coluna {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.side {
+  background-color: #1a0b25;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.541);
+  height: 55px;
+}
+
+/* Detalhe nos Anchos e no Container */
+
+.textoimg{
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Bruno Ace";
+  font-size: 30px;
+  justify-content: center;
+  display: inline;
+  /* opacity: 0%; */
+}
+
+#txtop{
+  /* Animação */
+  transition-duration: 2.5s;
+}
+
+#txtop:hover{
+  
+  opacity: 100%;
+  color: yellow;
+}
+
+/*Barra de Pesquisa*/
 
 
-#img-ft1{
-    width: 340px;
+.search-container{
+  width: 650px;
+  top: 12px;
+  position: relative;
+  padding-left: 372px;
+  display: flex;
+  color: #1a0b25;
+  border-radius: 18px;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 18px;
+  font-size: 1rem;
+  border: 3px solid #370b63;
+  border-radius: 18px;
+  filter: drop-shadow(0px 4px 4px rgba(27, 29, 27, 0.514));
+  outline: none;
+}
+  :focus{
+    border: 1px solid #000000;
+    transition: 0.35s ease;
+    color: #000000ef;
+  }
+    ::-webkit-input-placeholder{
+      transition: opacity 0.45s ease; 
+  	  opacity: 1;
+     }
+    ::-moz-placeholder {
+      transition: opacity 0.45s ease; 
+  	  opacity: 0;
     
+     }
+    :-ms-placeholder {
+     transition: opacity 0.45s ease; 
+  	 opacity: 0;
+   
+     }    
 
+.search-icon{
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -10px;
+  left: -3.8rem;
+  
 }
 
-/*#img-ft2{
-    position: relative;
 
-}
-*/
 
-#img-center{ 
-display: block;
-margin: 0 auto;
-}
-
-#coluna{
-    display: flex;
-    justify-content:space-around;
-    padding-right: 195px;
-}
