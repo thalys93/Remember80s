@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/resp.css">
     <!-- Remoção da Margen no Body -->
     <style>
         body{
             margin: 0;
             padding: 0;
         }
+
+        #img-center{ 
+        display: block;
+        margin: 0 auto;
+       }
     </style>
     <!-- Título da Marca -->
 
@@ -30,10 +36,11 @@
 </head>
 <body>
     <main>
+        <section class="card-int">
         <section class="fundo">
+            <h3 id="formatar"> Pink Floyd - Another Brick In The Wall </h3> 
             <article class="card">
-                <h3 id="formatar"> Pink Floyd - Another Brick In The Wall </h3> 
-
+            
                 <p><b>"Another Brick in the Wall"</b> é uma faixa do álbum <b>The Wall</b>, da banda inglesa <b>Pink Floyd</b>. É dividida em três partes, sendo
                 elas "Parte I", "Parte II" e "Parte III". Todas as partes foram compostas pelo baixista Roger Waters.</p>
                 
@@ -43,17 +50,16 @@
                 melhores canções de todos os tempos da Revista Rolling Stone.</p>
                 
                 <p>Sendo uma das 2º Musicas Mais Tocadas em 1980</p>
-
+        
         </article>
-
-        <img src="../assets/img/PinkFloyd Album.jpg" height="250px" width="250px">
-
-    </section> 
-
+        </section>
+        <img  id="imgcard-pink" src="../assets/img/PinkFloyd Album.jpg"> 
+        </section>
+    <section class="card-int">
     <section class="fundo">
+        <h3 id="formatar"> Elis Regina - Alô Alô, Marciano</h3>
         <article class="card">
-            <h3 id="formatar"> Elis Regina - Alô Alô, Marciano</h3>
-            
+
             <p> <b>“Alô Alô Marciano”</b> está presente no álbum “Saudade do Brasil” lançado em 1980 pela WEA, além desta canção, a obra conta
                 com 2 discos sendo cada um com 10 músicas, incluindo os clássicos “Maria, Maria” de Milton Nascimento e Fernando Brant,
                 e “Canção da América” também do Milton.</p>
@@ -67,13 +73,12 @@
             interpretação em um tom debochado ao cantar a <b>“high society”</b> brasileira da época.</p>
 
             <p> Foi uma das 10º Músicas Mais tocadas em 1980 </p>
-
         </article>
-
-        <img src="../assets/img/Elis Regina.jpg" height="250px" width="250px">
-
+    </section>
+    <img src="../assets/img/Elis Regina.jpg" id="imgcard2" height="250px" width="250px">
     </section>
 
+    <section class="card-int">
     <section class="fundo">
         <article class="card">
             <h3 id="formatar"> Queen - Another One Bites the Dust </h3>
@@ -96,10 +101,12 @@
 
         </article>
 
-        <img src="../assets/img/Queen_Another_One_Bites_the_Dust_1980.jpg" height="250px" width="250px">
+    
 
     </section>
-
+    <img src="../assets/img/Queen_Another_One_Bites_the_Dust_1980.jpg" id="imgcard3" height="250px" width="250px">
+    </section>
+    <section class="card-int">
     <section class="fundo">
         <article class="card">
             <h3 id="formatar"> Michael Jackson - "Don't Stop 'Til You Get Enough"</h3>
@@ -118,10 +125,10 @@
 
         </article>
 
-        <img src="../assets/img/Don't_Stop_'Til_You_Get_Enough.jpg" height="250px" width="250px">
 
     </section>
-
+    <img src="../assets/img/Don't_Stop_'Til_You_Get_Enough.jpg" id="imgcard4" height="250px" width="250px">
+    </section>
     </main>
 </body>
 

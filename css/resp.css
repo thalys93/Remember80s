@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixar footer */
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Smartphones */
+
+@media screen and (max-width: 767px){
+    html{
+        font-size: 8px;
+        max-width: 100%;
+    }
+
+    .center>a>img{
+        width: 50rem;
+    }
+
+    #img-ft1{
+        width: 15rem;
+    }
+
+    #titulofoto{
+        font-size: 2.5rem;
+    }
+
+    #coluna{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }    
+
+    /* Container rooms */
+
+    #card-container{
+        background-color: #231338;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        margin-right: 3rem;
+        margin-left: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    #img-card-cont>img{
+        width: 15rem;
+        padding-left: 3rem;
+    }
+    
+    #textos-cont{
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #textos-cont>h2{
+        font-family: "Press start 2P", sans-serif;
+        font-weight: 500;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    #textos-cont>span{
+        font-family: 'Bruno Ace';
+        font-weight: 300;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .side>a>img{
+        width: 20rem;
+        height: 4rem;
+        padding: 0.5rem;
+        
+    }
+
+    .hs{
+        margin-bottom: 2rem;
+    }
+
+    /*Barra de Pesquisa*/
+
+
+.search-container{
+    width: 50rem;
+    top: 0.75rem;
+    position: relative;
+    padding-left: 10rem;
+    display: flex;
+    color: #1a0b25;
+    border-radius: 1.125rem;
+    padding-right: 8rem;
+  }
+
+  #complete-searchbar{
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 2.813rem;
+    padding: 0 1.125rem;
+    font-size: 1rem;
+    border: 0.188rem solid #370b63;
+    border-radius: 0.8rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(27, 29, 27, 0.514));
+    outline: none;
+    background-color: #231338;
+    color: white;
+  }
+    :focus{
+      border: 0.063rem solid #000000;
+      transition: 0.35s ease;
+      color: #000000ef;
+    }
+      ::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 1;
+       }
+      ::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+      
+       }
+      :-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+     
+       }    
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    top: 0.6rem;
+    left: -2.7rem;  
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+    html{
+    font-size: 13px;
+    }
+
+    .center>a>img{
+        width: 55rem;
+    }
+
+    #img-ft1{
+        width: 20rem;
+    }
+
+    #titulofoto{
+        font-size: 2rem;
+    }
+
+    #coluna{
+        padding-left: 1rem;
+        padding-right:1rem;
+
+}
+
+/* Container rooms */
+
+#card-container{
+    background-color: #231338;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#img-card-cont>img{
+    width: 15rem;
+    padding-left: 3rem;
+}
+
+#textos-cont{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#textos-cont>h2{
+    font-family: "Press start 2P", sans-serif;
+    font-weight: 500;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+}
+
+#textos-cont>span{
+    font-family: 'Bruno Ace';
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.side>a>img{
+    width: 20rem;
+    height: 4rem;
+    padding: 0.5rem;
+    
+}
+
+.hs{
+    margin-bottom: 2rem;
+}
+
+ /*Barra de Pesquisa*/
+
+
+ .search-container{
+    width: 50rem;
+    top: 0.75rem;
+    position: relative;
+    padding-left: 10rem;
+    display: flex;
+    color: #1a0b25;
+    border-radius: 1.125rem;
+    padding-right: 8rem;
+  }
+
+  #complete-searchbar{
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 2.813rem;
+    padding: 0 1.125rem;
+    font-size: 1rem;
+    border: 0.188rem solid #370b63;
+    border-radius: 0.8rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(27, 29, 27, 0.514));
+    outline: none;
+    background-color: #231338;
+    color: white;
+  }
+    :focus{
+      border: 0.063rem solid #000000;
+      transition: 0.35s ease;
+      color: #000000ef;
+    }
+      ::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 1;
+       }
+      ::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+      
+       }
+      :-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+     
+       }    
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    top: 0.6rem;
+    left: -2.7rem;  
+  }
+
+}
+
+/* Telas Grandes */
+
+@media screen and (min-width: 992px){
+    html{
+    font-size: 16px;
+    }
+
+}

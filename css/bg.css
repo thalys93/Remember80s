@@ -2,23 +2,80 @@
 
 /* Fundos Sections */
 .fundo{
- font-size: 13px;
+ font-size: 0.813rem;
  justify-content: space-between;
- margin: 15pt;
- display: inline-flex;
+ margin-top: 1.5rem;
+ margin-bottom: 1.5rem;
+ display: flex;
+ flex-direction: column;
+ padding-left: 2rem;
+ padding-bottom: 2rem;
  
 }
 
+.card-int{
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgcard{
+    height: 13.75rem;
+    width: 13.75rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    
+}
+
+#imgcard-pink{
+    height: 13.75rem;
+    width: 13.75rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    
+}
+
+#imgcard2{
+    height: 13.75rem;
+    width: 13.75rem;
+    margin-top: 7.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    
+}
+
+#imgcard3{
+    height: 13.75rem;
+    width: 13.75rem;
+    margin-top: 6.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+#imgcard4{
+    height: 13.75rem;
+    width: 13.75rem;
+    margin-top: 3.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+
 section>img{
-    margin: 15pt;
-    border-radius: 17px;
-    box-shadow: 0px 4px 20px 5px rgba(83, 54, 144, 0.668);
+    border-radius: 1.063rem;
+    box-shadow: 0px 0.25rem 1.25rem 0.313rem rgba(83, 54, 144, 0.668);
 }
 /* Corpo da Página Configurações Gerais */
 
 body {
   max-width: 100%;
-  height: 111%;
+  height: 100%;
   background-image: url(/assets/img/inicial.png);
   background-repeat: repeat;
   background-size: cover;
@@ -27,22 +84,125 @@ body {
 
 p{
     font-family: "JetBrains Mono", sans-serif ;
-    padding: 10pt;
+    padding: 0.833rem;
 }
 
 h3{
     font-family: "Bruno Ace" ;
-    padding: 10pt;
+    padding: 0.833rem;
 }
 
 #formatar{
     display: flex;
     justify-content: center;
-    transform: translateY(-30pt);
+    font-size: 1.5rem;
 }
+
+
 /* Configuração dos Cards - Páginas History,Music e Roms */
 
 .card{
-    border: 4px solid rgba(26, 14, 75, 0.91);
-    box-shadow: 0px 4px 4px rgba(78, 76, 170, 0.25), 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border: 0.25rem solid rgba(26, 14, 75, 0.91);
+    box-shadow: 0px 0.25rem 0.25rem rgba(78, 76, 170, 0.25), 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card2{
+    position: absolute;
+ background: #231338;
+box-shadow: 0rem 0.25rem 1.563rem 0.313rem rgba(0, 0, 0, 0.74);
+border-radius: 1.188rem;
+width: 44.688rem;
+height: 16.563rem;
+top: 20rem;
+left: 0.625rem;
+margin-top: 6rem;
+margin-bottom: 4rem;
+}
+
+.card3{
+    background: #231338;
+    box-shadow: 0rem 0.25rem 1.563rem 0.313rem rgba(0, 0, 0, 0.74);
+    border-radius: 1.188rem;
+    width: 44.688rem;
+    height: 16.563rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+
+}
+
+.card4{
+    background: #231338;
+    box-shadow: 0rem 0.25rem 1.563rem 0.313rem rgba(0, 0, 0, 0.74);
+    border-radius: 1.188rem;
+    width: 44.688rem;
+    height: 16.563rem;
+    margin-top: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+.pac{
+    width: 15rem;
+    left: 0.313rem;
+    height: 12.5rem;
+    padding:2rem;
+    left: 13.875rem;
+}
+
+.pac2{
+    width: 10rem;
+    left: 0.313rem;
+    height: 10rem;
+    padding:2rem;
+    left: 13.875rem;
+    margin-top: 1rem;
+}
+
+.fundo2{
+    margin-top: 2rem;
+}
+
+.cardsrooms{
+    padding-left: 2rem;
+}
+
+/* Container rooms */
+
+#card-container{
+    background-color: #231338;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-right: 30rem;
+    margin-left: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#img-card-cont>img{
+    width: 15rem;
+    padding-left: 3rem;
+}
+
+#textos-cont{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#textos-cont>h2{
+    font-family: "Press start 2P", sans-serif;
+    font-weight: 500;
+}
+
+#textos-cont>span{
+    font-family: 'Bruno Ace';
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.side>a>img{
+    width: 20rem;
+    height: 4rem;
+    padding: 0.5rem;
+    
 }

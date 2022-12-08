@@ -7,30 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/resp.css">
 
     <style>
+
+        /*style separado*/
+
         div>center{
             align-items: center;
             justify-content: center;
 
-        }   /*style separado*/
+        }   
 
         #img-center{ 
          display: block;
-         margin-left: auto;
-         margin-right: auto;
+         margin: 0 auto;
         }
+        
     </style>
 
         <div class="center">
-            <img id="img-center" src="../assets/img/remember.png" alt="Remember80s" width="544px" height="89px" href="./index.html">
+            <a href="../index.html"><img id="img-center" src="../assets/img/remember.png" alt="Remember80s" href="./index.html"></a>
         </div>
 
 </head>
     <body>
 
-<main>
-        <ol>
+<main class="imagens-index">
+        <ol class="titulos">
             <li> 
                 <a href="/pages/roms.html">Roms</a>
             </li>
@@ -53,8 +57,9 @@
     <div>
         <li>
    <figure>
-        <a id="txtop" class="textoimg" href="./pages/roms.html">Roms 
+        <a id="txtop" class="textoimg" href="./pages/roms.html"> 
             <img src="./assets/img/Rectangle 25.png" id="img-ft1" title="Roms">
+            <span id="titulofoto">Roms</span>
         </a>
     </figure>
         </li>
@@ -63,8 +68,9 @@
     <div>
         <li>
     <figure>
-        <a id="txtop" class="textoimg" href="./pages/music.html">Música
+        <a id="txtop" class="textoimg" href="./pages/music.html">
             <img src="./assets/img/Rectangle 16.png" id="img-ft1" alt="Músicas" href="./pages/music.html"> 
+            <span id="titulofoto">Música</span>
         </a>
     </figure>
             </li>
@@ -73,8 +79,9 @@
     <div>
             <li>
     <figure>
-        <a id="txtop" class="textoimg" href="./pages/history.html"> Historia
+        <a id="txtop" class="textoimg" href="./pages/history.html"> 
             <img src="./assets/img/Rectangle 10.png" id="img-ft1" alt="História" href="./pages/history.html">
+            <span id="titulofoto">Historia</span>
         </a>
     </figure>
             </li>
@@ -92,4 +99,6 @@
 
     
 </html>
+
+
 
